@@ -1,0 +1,30 @@
+{{#*inline "page"}}
+
+<div class="card-container">
+	<span class="pro">PRO</span>
+        {{ #each items.profile }}
+	<img class="round" src="{{ profile_picture }}" alt="user" />
+	<h3>{{ name }}</h3>
+	<h6>{{ city }}</h6>
+	<pre>{{ bio }}</pre>
+	<div class="social">
+                <a target="_blank" href="{{ dev }}" rel="me">
+                        <i class="fab fa-dev"></i></a>
+                <a target="_blank" href="{{ gitlab }}" rel="me">
+                        <i class="fab fa-gitlab"></i></a>
+                <a target="_blank" href="{{ twitter }}" rel="me">
+                        <i class="fab fa-twitter"></i></a>
+        </div>
+        {{ /each }}
+	<div class="skills">
+		<h6>Skills</h6>
+		<ul>
+		{{ #each items.skills }}
+			<li>{{ value }}</li>
+		{{ /each }}
+		</ul>
+	</div>
+</div>
+
+{{/inline}}
+{{~> (parent)~}}

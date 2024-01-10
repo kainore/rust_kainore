@@ -1,0 +1,35 @@
+{
+    "profile":[
+        {
+            "name":"Mario García",
+            "city":"Mexico",
+            "profile_picture":"/images/profile.jpg",
+            "bio":"Open Source Advocate | Speaker\nMozilla Reps | GitLab Hero\nGitkraken Ambassador",
+            "dev":"https://dev.to/mattdark",
+            "gitlab":"https://gitlab.com/mattdark",
+            "twitter":"https://twitter.com/mariogmd",
+            "facebook":"#",
+            "linkedin":"#"
+        }
+    ],
+    "skills":[
+        {
+            "value":"Open Source"
+        },
+        {
+            "value":"Public Speaking"
+        },
+        {
+            "value":"Web Development"
+        },
+        {
+            "value":"Community Building"
+        },
+        {
+            "value":"Education"
+        },
+        {
+            "value":"Event Management"
+        }
+    ]
+}

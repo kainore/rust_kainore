@@ -1,0 +1,17 @@
+[global]
+limits = { forms = 32768, json = 32768 }
+
+[development]
+port = 8080
+address = "localhost"
+log = "normal"
+
+[staging]
+port = 8080
+address = "0.0.0.0"
+log = "normal"
+
+[production]
+port = 8080
+address = "0.0.0.0"
+log = "critical"

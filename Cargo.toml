@@ -1,0 +1,26 @@
+[package]
+name = "rust_kainore"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = "0.4.5"
+serde = "1.0.112"
+serde_derive = "1.0.112"
+serde_json = "1.0.55"
+handlebars = "3.1.0"
+
+[dependencies.rocket_contrib]
+version = "0.4.5"
+features = ["handlebars_templates"]
+
+[lib]
+name = "mylib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "server"
+path = "src/main.rs"
+
